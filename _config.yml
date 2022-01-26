@@ -1,1 +1,5 @@
+nav : 
+  Home : index.md
+  Pembelian Aktiva : aktiva.md
+
 theme: jekyll-theme-leap-day
