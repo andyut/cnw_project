@@ -15,6 +15,9 @@ Created using Github Markdown
 **Chart Of account**
   * Buat Account baru **2110003-HUTANG AKTIVA** dengan tipe control Account
   * Buat Account baru **TITIPAN (AKTIVA)**
+`
+Business Partner yang berkaitan dengan pembelian Fixed Asset di setting Account Accountingnya ke Hutang aktiva` Bukan `Hutang Dagang`
+
 
   
 ### Pembelian Aktiva 1 barang
