@@ -23,5 +23,7 @@ Business Partner yang berkaitan dengan pembelian Fixed Asset di setting Account 
   
 ### Pembelian Aktiva 1 barang
 
+Procurement melakukan permintaan pembelian ( Purchase Request)
+
 
 ### Pembelian Aktiva Gabungan beberapa Barang 
