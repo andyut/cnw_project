@@ -1,4 +1,4 @@
-## Pembelian Aktiva
+## Pembelian Aktiva SAP
 
 Keterangan :
 : Digunakan untuk pembelian ATK, ASET, Mesin dll
