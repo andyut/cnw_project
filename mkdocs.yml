@@ -2,8 +2,7 @@ site_name: SAP-CNW User Guide
 site_url: http://indoguna.co.id
 nav :
   - Home : index.md
-  - Pembelian : 
-    - Pembelian Aktiva : index_activa.md
+  - Pembelian Aktiva : index_activa.md
   - Penjualan : index_sls.md
   - Persediaan Barang : index_inv.md
   - Accounting : index_act.md
