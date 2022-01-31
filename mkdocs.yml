@@ -2,6 +2,6 @@ site_name: SysArch Documentation
 site_url: http://indoguna.co.id
 nav :
   - Home : index.md
-
+themes : readthedocs
 plugins:
     - search

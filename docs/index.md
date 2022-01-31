@@ -1,6 +1,6 @@
-# Project Documentation
+## Project Documentation
 
-## Project layout
+### Project layout
 
 - Log Book
 - CNW Documentation
