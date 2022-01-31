@@ -1,4 +1,4 @@
-site_name: SAP-CNW Documentation
+site_name: SAP-CNW User Guide
 site_url: http://indoguna.co.id
 nav :
   - Home : index.md
@@ -7,7 +7,5 @@ nav :
   - Penjualan : index_sls.md
   - Persediaan Barang : index_inv.md
   - Accounting : index_act.md
-
-
 plugins:
     - search
