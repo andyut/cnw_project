@@ -1,15 +1,13 @@
-site_name: SysArch Documentation
+site_name: SAP-CNW Documentation
 site_url: http://indoguna.co.id
 nav :
   - Home : index.md
-  - Log Book : index.md
-  - CNW : sop_apnon.md
-  - CNW Technical :  
-    - Installation : sp_apnon.md
-  - IT Stuff : sop_apnon.md
+  - Pembelian : 
+    - Pembelian Aktiva : index_activa.md
+  - Penjualan : index_sls.md
+  - Persediaan Barang : index_inv.md
+  - Accounting : index_act.md
 
 
 plugins:
     - search
-    - mermaid2 
-    - mkpdfs
