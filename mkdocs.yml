@@ -1,5 +1,5 @@
-site_name: SysArch Documentation
-site_url: http://indoguna.co.id
+site_name: SAP Documentation
+site_url: http://www.indoguna.co.id
 nav :
   - Home : index.md
 theme: readthedocs
