@@ -11,5 +11,3 @@ nav :
 
 plugins:
     - search
-    - mermaid2 
-    - mkpdfs
