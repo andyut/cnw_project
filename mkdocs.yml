@@ -3,7 +3,5 @@ site_url: http://indoguna.co.id
 nav :
   - Home : index.md
 
-themes : material
-
 plugins:
     - search
