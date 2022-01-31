@@ -1,10 +1,7 @@
 site_name: SAP Documentation
 site_url: http://www.indoguna.co.id
 nav :
-  - Home : index.md
-  - CNW User Guide :
-    - Pembelian : sop_apnon.md
-theme: readthedocs
+  - Home : index.rst 
 
 plugins:
     - search
