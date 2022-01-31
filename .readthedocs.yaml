@@ -11,8 +11,6 @@ build:
   tools:
     python: "3.9"
 
-mkdocs:
-  configuration: mkdocs.yml
 
 # Optionally declare the Python requirements required to build your docs
 formats:

@@ -1,7 +1,0 @@
-site_name: SAP Documentation
-site_url: http://www.indoguna.co.id
-nav :
-  - Home : index.rst 
-
-plugins:
-    - search
