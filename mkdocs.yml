@@ -2,11 +2,6 @@ site_name: SysArch Documentation
 site_url: http://indoguna.co.id
 nav :
   - Home : index.md
-  - Log Book : index.md
-  - CNW : sop_apnon.md
-  - CNW Technical :  
-    - Installation : sp_apnon.md
-  - IT Stuff : sop_apnon.md
 
 
 plugins:
