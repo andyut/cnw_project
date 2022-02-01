@@ -1,4 +1,4 @@
-site_name: My Documentation
+site_name: Project  Documentation
 
 nav:
     - Introduction: 'index.md'
