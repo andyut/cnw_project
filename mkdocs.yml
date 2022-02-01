@@ -1,8 +1,8 @@
-site_name: My Docs 
+site_name: My Documentation
 
 nav:
     - Introduction: 'index.md'
-    - 'Issue Tracker': 'https://example.com/'
+    - Issue Tracker: 'https://example.com/'
 plugins:
     - search
 
