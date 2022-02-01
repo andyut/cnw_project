@@ -5,6 +5,4 @@ nav:
     - 'Issue Tracker': 'https://example.com/'
 plugins:
     - search
-    - mermaid
-# Optionally declare the Python requirements required to build your docs
 
