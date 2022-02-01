@@ -1,10 +1,10 @@
-site_name: SAP-CNW User Guide
-site_url: http://indoguna.co.id
-nav :
-  - Home : index.md
-  - Pembelian Aktiva : index_activa.md
-  - Penjualan : index_sls.md
-  - Persediaan Barang : index_inv.md
-  - Accounting : index_act.md
+site_name: My Docs 
+
+nav:
+    - Introduction: 'index.md'
+    - 'Issue Tracker': 'https://example.com/'
 plugins:
     - search
+    - mermaid
+# Optionally declare the Python requirements required to build your docs
+
