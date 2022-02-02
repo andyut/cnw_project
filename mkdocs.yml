@@ -3,7 +3,7 @@ site_name: Project  Documentation
 nav:
     - Introduction: 'index.md'
     - Issue Tracker: 'https://indoguna.co.id/'
-themes : readthedocs
+themes : rtd-dropdown
 plugins:
     - search 
     - mermaid2
