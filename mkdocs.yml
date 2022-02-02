@@ -7,8 +7,7 @@ nav:
         - Pembelian Barang Dagang : ap_sop.md
     - Penjualan :
         - Penjualan Barang Dagang : ar_sop.md
-theme : material   
+theme : readthedocs   
 plugins:
     - search 
-    - mermaid2 
-    - mkdocs_pymdownx_material_extras
+    - mermaid2

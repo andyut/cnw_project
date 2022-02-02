@@ -1,5 +1,2 @@
-
-mkdocs-material
 mkdocs-mermaid2-plugin
 mkdocs-rtd-dropdown
-mkdocs-pymdownx-material-extras
