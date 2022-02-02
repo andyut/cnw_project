@@ -10,5 +10,4 @@ nav:
 theme : readthedocs   
 plugins:
     - search 
-    - mermaid2
-    - with-pdf 
+    - mermaid2 
