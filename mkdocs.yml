@@ -5,8 +5,4 @@ nav:
     - Issue Tracker: 'https://example.com/'
 plugins:
     - search
-<<<<<<< HEAD
     - mermaid
-=======
-
->>>>>>> ea6c6a98d2ea6f675c7ad7955de12e213fb4115a
