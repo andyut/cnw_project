@@ -6,17 +6,29 @@ Digunakan untuk pembelian ATK, ASET, Mesin dll
 
 
 
-**Konfigurasi**
+### Konfigurasi 
 
 **[SAP B1]**
 
 * Buat Group Non Vendor Dengan kode VO
+
 ![Vendor Numbering](img/vendor_numbering.png)
+
+
+
 * Buat COA baru hutang non barang dagang
+
 ![Hutang Activa](img/coa_hutangactiva.png)
+
+
+
 * Buat kelompok Item Baru dengan ketentuan 
-* checklist inventory dimatikan
-* Group Accounting lari ke biaya
+    * Checklist inventory dimatikan
+    * Group Accounting lari ke biaya
+
+![Item Activa](img/item_activa.png)
+ 
+
 
 **[SAP B1]**
 
