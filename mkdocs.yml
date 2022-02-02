@@ -1,11 +1,12 @@
-site_name: SAP-CNW User Guide
-site_url: http://indoguna.co.id
-nav :
-  - Home : index.md
-  - Pembelian Aktiva : index_activa.md
-  - Penjualan : index_sls.md
-  - Persediaan Barang : index_inv.md
-  - Accounting : index_act.md
+site_name: Project  Documentation
+
+nav:
+    - Introduction: 'index.md'
+    - Issue Tracker: 'https://example.com/'
 plugins:
     - search
+<<<<<<< HEAD
     - mermaid
+=======
+
+>>>>>>> ea6c6a98d2ea6f675c7ad7955de12e213fb4115a
