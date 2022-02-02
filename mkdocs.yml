@@ -8,3 +8,4 @@ nav :
   - Accounting : index_act.md
 plugins:
     - search
+    - mermaid
