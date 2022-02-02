@@ -5,4 +5,4 @@ nav:
     - Issue Tracker: 'https://indoguna.co.id/'
 plugins:
     - search
-    - mermaid
+    - mermaid2
