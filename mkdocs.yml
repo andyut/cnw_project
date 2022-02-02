@@ -4,13 +4,9 @@ nav:
     - Introduction: 'index.md'
     - Pembelian :
         - Pembelian Aktiva : index_pactiva.md
-        - Pembelian Barang Dagang : 
-            - Prosedur : ap_sop.md
-            - Report : apr_sop.md
+        - Pembelian Barang Dagang : ap_sop.md
     - Penjualan :
-        - Penjualan Barang Dagang : 
-            - Prosedur : ar_sop.md
-            - Report : arr_sop.md
+        - Penjualan Barang Dagang : ar_sop.md
 theme : readthedocs   
 plugins:
     - search 
