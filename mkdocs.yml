@@ -1,8 +1,16 @@
-site_name: Project  Documentation
+site_name: SAP CNW User Guide
 
 nav:
     - Introduction: 'index.md'
-    - Issue Tracker: 'https://indoguna.co.id/'
+    - Pembelian :
+        - Pembelian Aktiva : index_pactiva.md
+        - Pembelian Barang Dagang : 
+            - Prosedur : ap_sop.md
+            - Report : apr_sop.md
+    - Penjualan :
+        - Penjualan Barang Dagang : 
+            - Prosedur : ar_sop.md
+            - Report : arr_sop.md
 theme : readthedocs   
 plugins:
     - search 
