@@ -30,11 +30,10 @@ Digunakan untuk pembelian ATK, ASET, Mesin dll
  
 
 
-**[SAP B1]**
+### Prosedur
 
-* Buat Group Non Vendor Dengan kode VO
-* Buat COA baru hutang non barang dagang
-* Buat kelompok Item Baru dengan ketentuan 
-* checklist inventory dimatikan
-* Group Accounting lari ke biaya
+A. Bagian Procurement /purchasing membuat form _purchase request_
+B. Kemudian diserahkan ke bagian _Accounting_ untuk dicek apakah aktiva atau biaya
+C. Kemudian bagian _Accounting_ membuat **Fixed Asset Master Data** di SAP, kemudian **Kode Master Data** tersebut diberikan ke bagian Procurement untuk dibuatkan PO
+
 
