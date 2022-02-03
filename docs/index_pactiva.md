@@ -46,7 +46,11 @@ A --Y--> C(FixAsset Master data)
 C ==Asset_Code==> B
 
 ```
+
 4. kemudian **Kode Master Data** tersebut diberikan ke bagian Procurement untuk dibuatkan PO
+
+![Item FixedAsset](img/fixedasset_masterdata.png)
+
 5. Bagian Procurement / Purchasing membuat Purchase Order sesuai kode yang dibuat oleh bag _Accounting_
 6. Purchase Order tersebut diserahkan ke bagian Accounting untuk diproses pembayaran dan pengakuan assetnya
 
