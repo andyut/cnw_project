@@ -3,10 +3,9 @@ site_name: SAP User Guide
 nav:
     - Introduction: 'index.md'
     - Pembelian :
-        - Pembelian Aktiva : index_pactiva.md
-        - Pembelian Barang Dagang : ap_sop.md
+        - Pembelian Aktiva : index_pactiva.md 
     - Penjualan :
-        - Penjualan Barang Dagang : ar_sop.md
+        - Trading Term : tradingTerm.md
 theme : readthedocs   
 plugins:
     - search 

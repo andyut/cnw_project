@@ -1,7 +1,25 @@
-## Panduan SAP B1 dan reporting
+## Trading Term monitoring SAP
+
+> Modul Trading Term SAP
+
+
+
+---
+
+### Modul
+
  
+#### Trading Term
+#### Setup Master 
+- Business Partner
+- group Barang
+- Sub Group Barang
+- Expense Item
 
-Petunjuk Penggunaan SAP , SAP Web , Dan Reporting Services di lingkungan IGU Group
- 
+```mermaid
 
-
+erDiagram
+    CUSTOMER ||--o{ ORDER : places
+    ORDER ||--|{ LINE-ITEM : contains
+    CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
+```
