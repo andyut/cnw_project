@@ -14,7 +14,9 @@
 1. Sales Input Trading Term sesuai kontrak
 2. Accounting input nomor trading term dan jenis biayanya saat input pembayaran ( input tagihan potongan)
 3. Biaya biaya diluar trading term diinput Accounting di jurnal Entry dengan memasukan jenis biaya dan kode customer SAP
-4. 
+4. Semua data penjualan dan pembayaran otomatis ditarik dari SAP berdasarkan kode customer, dan jenis item nya.
+
+
 
 
 ```mermaid

@@ -4,7 +4,7 @@
 
 Digunakan untuk pembelian ATK, ASET, Mesin dll
 
-    __Semua pembayaran untuk pembelian Asset harus menyertakan PO SAP__
+    **Semua pembayaran untuk pembelian Asset harus menyertakan PO SAP**
 
 ### Konfigurasi 
 
@@ -44,6 +44,7 @@ Digunakan untuk pembelian ATK, ASET, Mesin dll
 ![Item Activa](img/item_activa.png)
  
 
+<div style="page-break-after: always"></div>
 
 ### Prosedur
 
