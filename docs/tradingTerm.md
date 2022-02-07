@@ -1,10 +1,12 @@
 ## Trading Term  SAP
 
-> Modul Trading Term SAP
+---
+    Document : markdown + Mermaid
+    Generator : MKDOcs
 
+---
 
-
-**Keterangan**
+ 
 
 
 
@@ -26,6 +28,10 @@ erDiagram
     TradingTerm ||--o{ Pembayaran  : Pembayaran_Piutang_SlipEntry
     TradingTerm ||--o{ JurnalEntry  : JurnalEntryBiaya_SlipEntry
 ```
+
+5. Waktu **Calculate**, sistem akan mengambul penjualan SAP, pembayaran, dan biaya yang sudah diinput sesuai nomor _trading term_ nya, serta biaya biaya diluar trading term.
+   
+![Trading calculate](img/tradingterm_calcuate.png)
 
 
 ### Cara Input
