@@ -6,6 +6,8 @@ nav:
         - Pembelian Aktiva : index_pactiva.md 
     - Penjualan :
         - Trading Term : tradingTerm.md
+        - Sales Order List : SalesorderList.md
+        
 theme : readthedocs   
 plugins:
     - search 
