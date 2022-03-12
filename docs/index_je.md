@@ -14,9 +14,8 @@ CNW JE modul yang digunakan untuk memasukan **Jurnal Entry SAP** menggunakan ***
 
 ### Menu 
 ```mermaid
-graph TD
-A(CNW JE) --> B(List Voucher)
-A(CNW JE) --> C(Income / Expense)
+graph TD 
+
 A(CNW JE) --> D(SAP Jurnal Entry)
 A(CNW JE) --> E(Account Setting)
 ```
@@ -24,9 +23,7 @@ A(CNW JE) --> E(Account Setting)
 ### Sub Menu
 
 ```mermaid
-graph LR
-A(List Voucher) --> A1(Voucher / Kasbon)
-B(Income / Expense) --> B1(Entertain)
+graph LR 
 C(SAP Jurnal Entry) --> C1(Journal Entry)
 D(Account Setting) --> D1(Account)
 D(Account Setting) --> D2(Department)
@@ -36,29 +33,6 @@ D(Account Setting) --> D5(SAP Business Partner)
 
 
 ```
-### Modul Integrated
-Semua modul tambahan yang berkaitan dengan *biaya*, akan integrated ke ***CNW-JE***, contoh biaya pengiriman, 
-```mermaid
-graph BT
-A(*CNW-Expense) --> B(CNW-JE)
-A1(*CNW-Entertain) --> B(CNW-JE)
-A2(*CNW-Voucher) --> B(CNW-JE)
-A3(*CNW-Shipment) --> B(CNW-JE)
-A4(*CNW-DebitNote) --> B(CNW-JE)
-A5(*CNW-SKI) --> B(CNW-JE)
-A6(*CNW-Surveyor) --> B(CNW-JE)
-```
-	-Integrasi masih dalam pengembangan- 
----  
-## List Voucher -> Voucher
-
-Form 
-
-	Catatan : Belum Integrated dengan Jurnal Entry SAP
-
-## Income / Expense -> Entertain
-Form
-	Catatan : Belum Integrated dengan Jurnal Entry SAP
 
 
 ## SAP Jurnal Entry -> Jurnal Entry
@@ -78,6 +52,7 @@ Mapping dengan SAP Business One
 **Doc Date** : Tanggal dokumen
 **(2) Type** : Jenis Jurnal Entry
 
+
 Daftar Jenis Tipe Jurnal Entry :
 * JL : Jurnal Lain
 * JV : Jurnal Penyesuaian
@@ -86,7 +61,9 @@ Daftar Jenis Tipe Jurnal Entry :
 * KK : Kas Kredit
 * KD : Kas Debet
 
+
 	Jika pilihan BK, BD, KD, KK maka cetakannya akan muncul jenis cetakan *Voucher pengeluaran/penerimaan kas/bank*. Jika pilihannya JV,JL maka cetakannya akan muncul cetakan *Jurnal Penyesuaian / Pemindahan*
+
 
 ```mermaid
 graph TD
@@ -111,6 +88,7 @@ Penomoran SAP berdasarkan pilihan Type ini
 
 **(4) Is SAP Partner** : Berhubungan dengan SAP business Partner atau tidak
 
+
 ```mermaid
 graph TD
 A --> B{Is SAP Partner?}
@@ -120,6 +98,7 @@ B -->|Yes| D(Pilih list Partner dari drownDown menu)
 D -->E{Tidak ada Di List}
 E -->|Yes| F(Load / Refresh BP di menu Account-Setting)
 ```
+
 Catatan : Untuk COA Tipe **Control Account** ,  Check List ini harus posisi **Yes**, karena kode BP tersebut akan masuk ke dalam ***CardCode*** Didalam Table Jurnal entry (  *JDT1* )
 
 **(5) Partner SAP** : Dropdown untuk memilih SAP Partner, jika tipe Account menggunakan **Control Account**  maka akan masuk ke dalam CardCode di JDT1 , dan Business Card ID di UDF JDT1.  Jika Tidak menggunakan **Control Account** maka akan ditempel nama customer di field remarks
