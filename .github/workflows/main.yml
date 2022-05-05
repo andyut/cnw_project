@@ -1,5 +1,7 @@
 name: telegram message
-on: [push]
+on: 
+  issues:
+    types: [edited, labeled]
 jobs:
 
   build:
